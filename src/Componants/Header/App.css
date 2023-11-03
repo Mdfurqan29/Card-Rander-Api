@@ -1,0 +1,42 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.HeaderMain{
+width: 100%;
+height: 10vh;
+background-color: rgba(16, 140, 223, 0.648);
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0px 0px 20px 0px rgba(16, 140, 223, 0.828);
+}
+.h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.addcards{
+    float: right;
+}
+.main{
+    position: relative;
+    
+}
+.ic{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-40%);
+    color: white;
+}
+.ic h2 i{
+margin-right: 5px;
+}
+
+@media screen and (max-width:368px){
+    .HeaderMain{
+justify-content: space-between;
+    }
+    .HeaderMain h1{
+        margin-left: 20px;
+    }
+}
